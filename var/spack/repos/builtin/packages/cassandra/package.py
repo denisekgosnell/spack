@@ -13,12 +13,12 @@ class Cassandra(Package):
     """
 
     homepage = "https://github.com/apache/cassandra"
-    url      = "https://github.com/apache/cassandra/archive/cassandra-4.0-alpha2.tar.gz"
+    url      = "https://github.com/apache/cassandra/archive/cassandra-4.0-beta4.tar.gz"
 
-    version('4.0-alpha2', sha256='6a8e99d8bc51efd500981c85c6aa547387b2fdbedecd692308f4632dbc1de3ba')
-    version('4.0-alpha1', sha256='2fdf5e3d6c03a29d24a09cd52bb17575e5faccdc4c75a07edd63a9bf4f740105')
-    version('3.11.6',     sha256='a739ad036d58f95b5526c481b20773cfcc9ccf3c9dc0b50943d9f2306b56e824', preferred=True)
-    version('3.11.5',     sha256='0ee3da12a2be86d7e03203fcc56c3589ddb38347b9cd031495a2b7fcf639fea6')
+    version('4.0-beta4', sha256='beb98898ebb9e866aa4863b952939d4b071fa4c277d826fc2589649073fa320b')
+    version('4.0-beta3', sha256='860744837ebb7802a88c44d37d2a186a6753d307f0a40263ef3e15d94151c25f')
+    version('3.11.10',   sha256='5a838495b9a7ec02812c42eb0c9d38519b0c0255b72109122ff84b8df642cb18', preferred=True)
+    version('3.11.9',    sha256='2a6ed240a0a92e902263cea68e875e6b210b402db8d77164d2f2d95d97137cd3')
 
     depends_on('java', type=('build', 'run'))
 
